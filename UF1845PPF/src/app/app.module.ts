@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr'
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,7 +12,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ListarCursosComponent } from './componentes/listar-cursos/listar-cursos.component';
 import { CrearCursosComponent } from './componentes/crear-cursos/crear-cursos.component';
-import { HomeComponent } from './componentes/home/home.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { CursoComponent } from './componentes/curso/curso.component';
 
