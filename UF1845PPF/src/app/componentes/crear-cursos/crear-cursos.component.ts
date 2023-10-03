@@ -21,7 +21,7 @@ export class CrearCursosComponent implements OnInit{
     constructor(private fb: FormBuilder,
                 private router: Router,
                 private toastr: ToastrService,
-                private _cursoService: GcursoService,
+                private _cursService: GcursoService,
                 private aRouter: ActivatedRoute) { 
       this.cursoForm = this.fb.group({
         nombre: ['', Validators.required],
