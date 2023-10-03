@@ -12,7 +12,7 @@ app.use(cors())
 
 app.use(express.json());
 
-app.use('/api/cursos', require('./app/routes/cursoroutes'));
+app.use('/api/cursos', require('.app/routes/cursoroutes'));
 app.use('/api/usuarios', require('./app/routes/usuarioroutes'));
 app.use('/api/mensajes', require('./app/routes/mensajeroutes'));
 
